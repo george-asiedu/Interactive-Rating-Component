@@ -92,8 +92,14 @@ img {
     font-weight: 700;
 }
 
-.buttons .btn:hover {
+.buttons .btn:hover,
+.buttons .btn.active:hover {
     background: var(--Orange);
+    color: var(--White);
+}
+
+.buttons .btn.active {
+    background: var(--Light-Grey);
     color: var(--White);
 }
 
