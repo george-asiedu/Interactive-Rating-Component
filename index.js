@@ -2,7 +2,7 @@ const thankYou = document.querySelector('.thank-you')
 const button = document.querySelectorAll('.btn')
 const submitButton = document.querySelector('.submit-btn')
 const component = document.querySelector('.component')
-
+const number = document.querySelector('.number')
 
 button[0].addEventListener('click', function() {
     button[0].classList.add('active')
